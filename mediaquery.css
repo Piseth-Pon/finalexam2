@@ -1,0 +1,27 @@
+/* Tablet: 768px */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: darkcyan;
+  }
+
+  .post {
+    height: 250px;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 1fr;
+  }
+
+
+}
+
+
+/* Laptop */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: darkorange;
+  }
+
+
+  .container {
+    grid-template-columns: 2fr 1fr;
+  }
+}
